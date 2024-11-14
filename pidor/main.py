@@ -8,7 +8,7 @@ def create_connection():
     return mysql.connector.connect(
         host='localhost',
         user='root',  # Ваше имя пользователя MySQL
-        password='12543hRGB2001',  # Ваш пароль MySQL
+        password='',  
         database='clinic_db'  # Имя вашей базы данных
     )
 
